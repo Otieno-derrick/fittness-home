@@ -90,7 +90,7 @@ text-transform: capitalize;
   height: 445px;
   background: #057575;
   border-top: 4px solid #013942;
-  border-bottom-left-radius: 20px;
+  border-start-end-radius: 40px;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -102,15 +102,21 @@ text-transform: capitalize;
   -moz-transition: 0.3s all ease-in-out;
   -ms-transition: 0.3s all ease-in-out;
   -o-transition: 0.3s all ease-in-out;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  -o-border-radius: 40px;
 }
 
 .exercise-card img {
   height: 326px;
+  background: #013942;
 }
 
 .bodyPart-card {
   transform: scale(1, 1);
   transition: 0.3s all ease-in-out;
+  background: #013942;
 }
 
 .exercise-card:hover,
