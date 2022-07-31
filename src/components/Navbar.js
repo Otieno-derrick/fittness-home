@@ -8,7 +8,6 @@ const Navbar = () => (
       <Typography className='top' fontSize={'30px'}  style={{  width: '48px', height: '48px', margin: '0px 20px' }}>
        Fitness@Home
       </Typography>
-      
     </Link>
     <Stack 
       direction="row"
