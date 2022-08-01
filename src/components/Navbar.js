@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Stack, Typography } from '@mui/material';
+import { FaHome} from "react-icons/fa";
 
 const Navbar = () => (
   <Stack className='navbar' direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }} px="20px">
@@ -18,7 +19,7 @@ const Navbar = () => (
       margin={'auto'}
       pt={'-10px'}
     >
-      <Link to="/" style={{ textDecoration: 'none', color: '#057575', borderBottom: '3px solid #057575' }}>Home</Link>
+      <Link to="/" style={{ textDecoration: 'none', color: '#057575', borderBottom: '3px solid #057575' }}>Home<FaHome/> </Link>
       <a href="#exercises" style={{ textDecoration: 'none', color: '#057575' }}>Exercises</a>
       <a href="#Aboutus" style={{ textDecoration: 'none', color: '#057575' }}>About us</a>
       <a href="#login" type='button' style={{ textDecoration: 'none', color: '#057575' }}>Login</a>
