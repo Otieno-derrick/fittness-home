@@ -121,7 +121,7 @@ const HorizontalRule = styled.hr`
   height: 0.3rem;
   border-radius: 0.8rem;
   border: none;
-  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
+  background: linear-gradient(to right, #13942  0%, #057575 79%);
   background-color: #013942 ;
   margin: 1.5rem 0 1rem 0;
   backdrop-filter: blur(25px);
