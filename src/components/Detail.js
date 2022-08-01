@@ -1,9 +1,9 @@
 import React from 'react';
 import { Typography, Stack, Button } from '@mui/material';
 
-import BodyPartImage from '../assets/icons/body-part.png';
-import TargetImage from '../assets/icons/target.png';
-import EquipmentImage from '../assets/icons/equipment.png';
+import BodyPartImage from '../assets/icons/images (1).jpeg';
+import TargetImage from '../assets/icons/images.jpeg';
+import EquipmentImage from '../assets/icons/lift.png';
 
 const Detail = ({ exerciseDetail }) => {
   const { bodyPart, gifUrl, name, target, equipment } = exerciseDetail;
