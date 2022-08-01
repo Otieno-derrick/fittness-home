@@ -100,7 +100,7 @@ const InputContainer = styled.div`
   align-items: center;
   height: 20%;
   width: 100%;
-  color: #013942 
+  backgroundColor: #013942 
 `;
 
 const ButtonContainer = styled.div`
