@@ -1,9 +1,9 @@
 # Fitness App
 This is an appliction that gives one a chance to take exercisese while at home. Some can search for workout which come along with videos for demo on how to do the workouts correctly accompanied with health therapy videos from.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Done by derrick ochieng
 
-#
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## To run the project folow the link below and git clone
 git clone from ('otieno-derrick.github.io/fittness-home/')
@@ -56,4 +56,6 @@ javscript
  ## Bugs
 
  the project is cuerrently running ok with no bugs
+ 
+ ## @derick(c)
 
