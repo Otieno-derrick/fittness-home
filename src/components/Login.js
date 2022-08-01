@@ -116,17 +116,7 @@ const LoginWith = styled.h5`
   color: #013942 
 `;
 
-const HorizontalRule = styled.hr`
-  width: 90%;
-  height: 0.3rem;
-  border-radius: 0.8rem;
-  border: none;
-  background: linear-gradient(to right, #14163c 0%, #03217b 79%);
-  background-color: #013942 ;
-  margin: 1.5rem 0 1rem 0;
-  backdrop-filter: blur(25px);
-  color: #013942 
-`;
+
 
 const IconsContainer = styled.div`
   display: flex;
