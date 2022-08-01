@@ -143,14 +143,15 @@ video{
 }
 
 MainContainer{
-  background-image: url('./assets/images/banner.png');
   background-size: cover;
   width: 100vw;
   height: 80vh;
   background-repeat: no-repeat;
   display:flex;
-
-
+  margin-left: 100rem;
+  align-items: center;
+  justify-content: center;
+  background: #013942;
 }
 .search-btn:hover {
   color: #013942 !important;

@@ -13,7 +13,7 @@ function Login() {
     "linear-gradient(to right, #56C1E1 0%, #35A9CE 50%)";
   return (
     <MainContainer  alignItems={'center'} justifyContent={'center'} textAlign="center">
-      <WelcomeText>Welcome</WelcomeText>
+      <WelcomeText color="#013942 ">Welcome</WelcomeText>
       <InputContainer>
         <Input type="text" placeholder="Email" />
         <Input type="password" placeholder="Password" />
@@ -90,6 +90,7 @@ const MainContainer = styled.div`
 
 const WelcomeText = styled.h2`
   margin: 3rem 0 2rem 0;
+  color: #013942 ;
 `;
 
 const InputContainer = styled.div`
@@ -99,6 +100,7 @@ const InputContainer = styled.div`
   align-items: center;
   height: 20%;
   width: 100%;
+  color: #013942 
 `;
 
 const ButtonContainer = styled.div`
@@ -111,6 +113,7 @@ const ButtonContainer = styled.div`
 
 const LoginWith = styled.h5`
   cursor: pointer;
+  color: #013942 
 `;
 
 const HorizontalRule = styled.hr`
@@ -119,9 +122,10 @@ const HorizontalRule = styled.hr`
   border-radius: 0.8rem;
   border: none;
   background: linear-gradient(to right, #14163c 0%, #03217b 79%);
-  background-color: #ebd0d0;
+  background-color: #013942 ;
   margin: 1.5rem 0 1rem 0;
   backdrop-filter: blur(25px);
+  color: #013942 
 `;
 
 const IconsContainer = styled.div`
@@ -133,6 +137,7 @@ const IconsContainer = styled.div`
 
 const ForgotPassword = styled.h4`
   cursor: pointer;
+  color: #013942 
 `;
 
 export default Login;
