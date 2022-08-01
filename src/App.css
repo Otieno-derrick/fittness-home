@@ -142,6 +142,16 @@ video{
   transform: scale(1.1, 1.1);
 }
 
+MainContainer{
+  background-image: url('./assets/images/banner.png');
+  background-size: cover;
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  display:flex;
+
+
+}
 .search-btn:hover {
   color: #013942 !important;
   border: 1px solid #057575 !important;
