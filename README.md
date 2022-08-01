@@ -53,7 +53,7 @@ javscript
 
 
 
- ## Buugs
+ ## Bugs
 
  the project is cuerrently running ok with no bugs
 
