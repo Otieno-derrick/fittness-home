@@ -12,7 +12,7 @@ const StyledIcon = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 4rem;
-  color: white;
+  color: #e4e2e2;
   cursor: pointer;
   svg {
     width: 1.5rem;

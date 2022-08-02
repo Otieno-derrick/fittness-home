@@ -4,7 +4,7 @@ import { Stack, Typography } from '@mui/material';
 import { FaHome} from "react-icons/fa";
 
 const Navbar = () => (
-  <Stack className='navbar' direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '40px' }, mt: { sm: '32px', xs: '20px' }, justifyContent: 'none' }} px="20px">
+  <Stack className='navbar' direction="row" justifyContent="space-around" sx={{ gap: { sm: '123px', xs: '10px' }, mt: { sm: '32px', xs: '10px' }, justifyContent: 'none'}} px="20px">
     <Link to="/" style={{textDecoration: 'none', top: "20px"}}>
       <Typography className='top' fontSize={'30px'}  style={{  width: '48px', height: '48px', margin: '0px 20px' }}>
        Fitness@Home
