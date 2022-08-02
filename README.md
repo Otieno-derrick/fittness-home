@@ -10,6 +10,15 @@ git clone from ('otieno-derrick.github.io/fittness-home/')
 
 In the project directory, you can run:
 
+## `npm install --legacy-peer-deps`    to in stall dependancies required for the project to run with no errors
+
+ 
+ ### then
+ 
+ ## `npm install`
+ 
+ ### And then start the project with
+
 ### `npm start`
 
 Runs the app in the development mode.\
